@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '../components/partners.css'
+import '../styles/partners.css'
 import '../styles/covid.css'
 import Layout from '../components/Layout'
 

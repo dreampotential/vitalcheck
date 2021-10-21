@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import mobile_banner_img from '../Images/covid/covid_header.png'
 import deposit_img from '../Images/covid/deposit.png'
 import advantage1_img from '../Images/covid/advantage1.png'
 import advantage2_img from '../Images/covid/advantage2.png'
@@ -10,6 +11,9 @@ const Covidtest = () => {
             <div className="section section--top">
                 <div className="top__decoration"></div>
                 <div className="container container--top">
+                    <div className = "mobile_banner">
+                        <Image src = {mobile_banner_img} />
+                    </div>
                     <div className="container__inner">
                         <h1 className="top__title">VitalCheck Wellness COVID Tracking System</h1>
                         <div className="top__text">Fully automate the process of collecting proof of vaccination and testing with our revolutionary tracking solution.</div>
