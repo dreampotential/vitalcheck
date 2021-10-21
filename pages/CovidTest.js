@@ -31,7 +31,7 @@ const Covidtest = () => {
                     </div>
                     <div className="form-container">
                         <div className="form__title">Get in touch</div>
-                        <form action="/ContactSubmission" method="post">
+                        <form action="" method="post">
                             <input type="text" name="your-name" placeholder="Your Full Name" />
                             <input type="email" name="your-email" placeholder="Email Address" />
                             <input type="text" name="your-company" placeholder="Company" />
