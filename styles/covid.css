@@ -1,5 +1,5 @@
 .section--top {
-    padding: 0 32px;
+    padding: 0 100px;
     position: relative;
     overflow: hidden;
     background-image: url('../Images/covid/header-image.png');
@@ -34,7 +34,7 @@
 }
 .container--top .container__inner {
     width: 50%;
-    height: 700px;
+    height: 600px;
     position: relative;
     z-index: 3;
     display: flex;
@@ -67,7 +67,7 @@
     line-height: 118%;
 }
 .section--form {
-    padding: 80px 32px 40px;
+    padding: 80px 100px 40px;
 }
 .container--form {
     display: grid;
@@ -82,10 +82,14 @@
     line-height: 160%;
     color: #4b4b4b;
     font-family: 'merriweatherbold', serif;
+    width: 80%;
+    margin-left: 10%;
 }
 .form-image {
     grid-column: 1;
     grid-row: 2;
+    width: 80%;
+    margin-left: 10%;
 }
 .form-container {
     grid-column: 2;
@@ -103,7 +107,7 @@
     text-align: center;
     background-color: #2D3390;
     color: #ffffff;
-    font-family: 'merriweatherbold', serif;;
+    font-family: 'merriweatherbold', serif;
 }
 .form-container form {
     padding: 40px 36px;
@@ -129,4 +133,26 @@
     border-radius: 4px;
     background-color: #F15A22;
     color: #ffffff;
+}
+.section.section--advantages {
+    background: #f5f5f5;
+}
+.container--advantages {
+    padding: 70px 200px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+}
+.advantage {
+    text-align: center;
+}
+.advantage_title {
+    font-size: 25px;
+    font-family: 'merriweatherbold', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.advantage__description {
+    font-size: 18px;
+    font-family: 'montserratmedium', sans-serif;
 }
