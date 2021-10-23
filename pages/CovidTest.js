@@ -4,8 +4,33 @@ import deposit_img from '../Images/covid/deposit.png'
 import advantage1_img from '../Images/covid/advantage1.png'
 import advantage2_img from '../Images/covid/advantage2.png'
 import advantage3_img from '../Images/covid/advantage3.png'
+import { useState } from 'react'
 
 const Covidtest = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [company, setCompany] = useState("");
+
+    const onChangeName = (e) => {
+        setName(e.target.value);
+      }
+    const onChangeEmail = (e) => {
+    setEmail(e.target.value);
+    }
+    const onChangeCompany = (e) => {
+    setCompany(e.target.value);
+    }
+
+    const SubmitData = (event) => {
+        event.preventDefault();
+        let postData = {
+            name:name,
+            email:email,
+            company:company
+        }
+        console.log(postData);
+    }
+
     return (
         <div>
             <div className="section section--top">
@@ -31,12 +56,12 @@ const Covidtest = () => {
                     </div>
                     <div className="form-container">
                         <div className="form__title">Get in touch</div>
-                        <form action="" method="post">
-                            <input type="text" name="your-name" placeholder="Your Full Name" />
-                            <input type="email" name="your-email" placeholder="Email Address" />
-                            <input type="text" name="your-company" placeholder="Company" />
-                            <input type="tel" name="your-phone" placeholder="Phone Number" />
-                            <input type="submit" name="your-message" value="Request More Information" />
+                        <form onSubmit = {SubmitData}>
+                            <input type="text" name="name" placeholder="Your Full Name" onChange = {onChangeName} value = {name} required />
+                            <input type="email" name="email" placeholder="Email Address" onChange = {onChangeEmail} value = {email} required />
+                            <input type="text" name="company" placeholder="Company" onChange = {onChangeCompany} value = {company} required />
+                            <input type="tel" name="phone" placeholder="Phone Number" />
+                            <input type="submit" name="message" value="Request More Information" />
                         </form>                        
                     </div>
                 </div>
