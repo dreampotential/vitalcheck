@@ -1,12 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Partners from '../components/Partners'
 import styles from '../styles/Home.module.css'
 import favicon from '../Images/covid/favicon/apple-touch-icon.png'
 import Introduce from '../components/Introduce'
 import Latest from '../components/Latest'
 import Benefit from '../components/Benefits'
 import Services from '../components/Services'
+import Employ from '../components/Employ'
+import Doctors from '../components/Doctors'
+import Testimonial from '../components/Testimonial'
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
       <Latest />
       <Benefit />
       <Services />
-      <Partners />
+      <Employ />
+      <Doctors />
+      <Testimonial />
     </div>
   )
 }

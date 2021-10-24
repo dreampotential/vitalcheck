@@ -1,13 +1,13 @@
 .latest_news_body {    
     background: #f15a22;
 }
-.latest_news {
+.latest_news, .doctors {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserratregular', sans-serif;
     max-width: 1240px;
 }
 .latest_left {
@@ -21,7 +21,18 @@
     border-color: inherit;
     margin-left: calc(610px - 50vw);
 }
-.latest_right {
+.doctors_left {
+    background: url(../Images/latest/left.png) no-repeat right top / cover;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-color: inherit;
+    margin-left: calc(610px - 50vw);
+    width: 40%;
+}
+.latest_right, .doctors_right {
     width: 60%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -59,17 +70,24 @@
     font-size: 15px;
     font-weight: 600;
 }
+.doctors_right h4 {
+    color: #1d1d1d;
+    font-size: 26px;
+    font-family: 'montserratregular', sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+}
 
 @media only screen and (max-width: 767px) {
-    .latest_left {
+    .latest_left, .doctors_left {
         margin-left: 0%;
         width: 100%;
     }
-    .latest_right {
+    .latest_right, .doctors_right {
         width: 100%;
         padding-bottom: 15%;
     }
-    .latest_news {
+    .latest_news, .doctors {
         padding: 0%;
     }
 }

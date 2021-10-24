@@ -10,7 +10,7 @@
   max-width: 1068px;
   margin: 0 auto;
   padding: 0 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'montserratregular', sans-serif;
 }
 .partners__wrapper h1 {
   font-family: 'merriweatherbold', serif;
@@ -22,7 +22,7 @@
 }
 .partners__wrapper h2 {
   margin-top: 84px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'montserratregular', sans-serif !important;
   font-size: 24px;
   font-weight: bold;
   line-height: 125%;
