@@ -25,6 +25,13 @@ p.include_label {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+.exams {
+    padding: 4rem 2.5rem;
+}
+.exams_body {
+    max-width: 1240px;
+    margin: 0 auto;
+}
 p.exam_desc {
     width: 50%;
     font-size: 26px;
@@ -38,6 +45,8 @@ p.exam_desc {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .single_exam_img {
     width: 16.66%;
@@ -79,5 +88,9 @@ span.link_contact {
     }
     .exams_body h6 {
         margin-top: 0%;
+    }
+    .exam_images {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
