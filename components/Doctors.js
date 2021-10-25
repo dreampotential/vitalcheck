@@ -8,10 +8,12 @@ const Doctors = () => {
                 <div className = "doctors_left">
                 </div>
                 <div className = "doctors_right">
+                    <div className = "spacer_doctors"></div>
                     <Image src = {check} width = {30} height = {25} />
-                    <p className = "custom_heading_employ">Introducing VitalCheck:</p>
-                    <h1 className = "custom_title_employ">Get your vitals checked with VitalCheck. The highest quality preventive care provided right in your office or virtually.</h1>
-                    <h4>Reduce sick days, increase workplace productivity, improve employee satisfaction and reduce your long term healthcare costs.</h4>
+                    <p className = "custom_heading_employ">LEADING DOCTORS</p>
+                    <h1 className = "custom_title_employ">Get the best preventive care possible</h1>
+                    <h4>VitalCheck only brings board-certified physicians for each and every appointment.</h4>
+                    <div className = "spacer_doctors"></div>
                 </div>
             </div>
         </div>

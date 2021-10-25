@@ -5,6 +5,8 @@ import '../styles/intro.css'
 import '../styles/latest.css'
 import '../styles/benefits.css'
 import '../styles/services.css'
+import '../styles/testimonial.css'
+import '../styles/clients_include.css'
 import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {

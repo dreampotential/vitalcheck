@@ -1,0 +1,83 @@
+.include_clients {
+    padding: 4rem 2.5rem;
+    background: url('../Images/clients/background.png') no-repeat left top / cover;
+}
+.include_clients_body {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 4rem;
+    text-align: center;
+    border: solid 1px #dfe2e6;
+    background: #ffffff;
+    margin-top: -200px;
+}
+p.include_label {
+    margin-bottom: 70px;
+}
+.images_row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.single_client_image {
+    width: 20%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+p.exam_desc {
+    width: 50%;
+    font-size: 26px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.exam_images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.single_exam_img {
+    width: 16.66%;
+}
+.exams_body h6 {
+    text-align: center;
+    font-size: 19px;
+    font-family: 'montserratregular', sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+span.link_contact {
+    margin-left: 5px;
+    color: #f15a22;
+}
+@media only screen and (max-width: 767px) {
+    p.include_label {
+        margin-bottom: 30px;
+    }
+    .single_client_image {
+        width: 50%;
+    }
+    .include_clients_body {
+        padding: 1.5rem;
+    }
+    .images_row {
+        margin-bottom: 0%;
+    }
+    p.exam_desc {
+        width: 100%;
+        font-size: 22px;
+    }
+    .exams {
+        padding: 1.5rem;
+    }
+    .single_exam_img {
+        width: 50%;
+        padding: 2rem;
+    }
+    .exams_body h6 {
+        margin-top: 0%;
+    }
+}

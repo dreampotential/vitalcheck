@@ -57,6 +57,14 @@ p.benefit_title {
     font-weight: 400;
     line-height: 1.6;
 }
+.spacer_doctors {
+    height: 75px;
+}
+@media only screen and (max-width: 1440px) {
+    .benefits_items {
+        margin: 0;
+    }
+}
 
 @media only screen and (max-width: 767px) {
     .benefits_body {
@@ -80,5 +88,11 @@ p.benefit_title {
     }
     .benefit_item {
         width: 100%;
+    }
+    .employ, .doctors_body {
+        text-align: center;
+    }
+    .spacer_doctors {
+        display: none;
     }
 }
