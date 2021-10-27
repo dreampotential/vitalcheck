@@ -62,6 +62,31 @@ span.link_contact {
     margin-left: 5px;
     color: #f15a22;
 }
+.client_numbers {
+    font-family: 'montserratregular', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.have_served {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.numbers {
+    font-size: 80px;
+    margin: 0%;
+    font-weight: bold;
+}
+.companies {
+    font-size: 15px;
+}
+.client_companies, .client_patients {
+    width: 50%;
+}
 @media only screen and (max-width: 767px) {
     p.include_label {
         margin-bottom: 30px;
@@ -92,5 +117,15 @@ span.link_contact {
     .exam_images {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .client_numbers {
+        display: block;
+        width: 100%;
+    }
+    .client_companies, .client_patients {
+        width: 100%;
+    }
+    .numbers {
+        font-size: 70px;
     }
 }
