@@ -1,0 +1,11 @@
+{
+  "/CovidTest": "pages/CovidTest.html",
+  "/Partner": "pages/Partner.html",
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/request_info": "pages/request_info.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
