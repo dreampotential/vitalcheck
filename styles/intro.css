@@ -57,7 +57,7 @@
 .custom_title_employ {
     margin-bottom: auto;
 }
-a.intro_more_info {
+a.intro_more_info, .header_more_info {
     font-size: 15px;
     line-height: 1.2;
     font-weight: 600;
@@ -65,6 +65,9 @@ a.intro_more_info {
     padding: 1.2em 2em;
     background: #f15a22;
     color: #ffffff;
+}
+.header_more_info {
+    float: right;
 }
 .employ_left h4 {
     color: #1d1d1d;

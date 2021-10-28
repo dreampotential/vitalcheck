@@ -14,7 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
-.header, .main_footer {
+.main_footer {
   padding: 2%;
   background: black;
+}
+.header_container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  padding: 1% 2%;
+  background: #ffffff;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
 }
