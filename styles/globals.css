@@ -29,3 +29,23 @@ a {
   z-index: 9;
   width: 100%;
 }
+.header_btn {
+  float: right;
+}
+@media only screen and (max-width: 767px) {
+  .header {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 8%);
+}
+  .header_container {
+    display: flex;
+  }
+  .header_btn a {
+    padding: 2%;
+  }
+  .header_btn {
+    height: 100%;
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+}
